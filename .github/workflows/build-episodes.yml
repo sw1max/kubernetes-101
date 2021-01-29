@@ -38,4 +38,4 @@ jobs:
           file: ./episode-${{ matrix.episode }}/${{ matrix.dockerfile }}
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: geerlingguy/kube101:${{ matrix.tag }}
+          tags: sw1max/kube101:${{ matrix.tag }}
